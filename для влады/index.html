@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=yes">
+    <title>Приглашение для Влады 💖</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            background: #FFF0F5;
+            font-family: system-ui, -apple-system, 'SF Pro Text', 'Segoe UI', Roboto, Helvetica, sans-serif;
+            padding: 24px 20px 40px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            max-width: 500px;
+            width: 100%;
+            margin: 0 auto;
+            background: white;
+            border-radius: 56px;
+            padding: 32px 24px 40px;
+            box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.1);
+        }
+
+        /* ПРИГЛАШЕНИЕ — ПО ЦЕНТРУ */
+        .invite-badge {
+            font-size: 14px;
+            letter-spacing: 3px;
+            font-weight: 600;
+            color: #D43F6B;
+            text-align: center;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            background: #FFF0F5;
+            padding: 8px 20px;
+            border-radius: 40px;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .for-vlada {
+            font-size: 36px;
+            font-weight: 700;
+            text-align: center;
+            color: #C2185B;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .main-text {
+            font-size: 20px;
+            line-height: 1.4;
+            text-align: center;
+            color: #2D2D2D;
+            background: #FFF9FB;
+            padding: 20px 16px;
+            border-radius: 40px;
+            margin-bottom: 24px;
+            font-weight: 500;
+        }
+
+        .date {
+            background: #FFE4EC;
+            padding: 14px 20px;
+            border-radius: 60px;
+            text-align: center;
+            font-size: 22px;
+            font-weight: 600;
+            color: #B83B5E;
+            margin-bottom: 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .question {
+            font-size: 26px;
+            font-weight: 700;
+            text-align: center;
+            color: #AD2A55;
+            margin-bottom: 36px;
+            background: #FFF0F5;
+            padding: 12px;
+            border-radius: 50px;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            border: none;
+            padding: 18px 20px;
+            font-size: 22px;
+            font-weight: 600;
+            border-radius: 60px;
+            cursor: pointer;
+            font-family: inherit;
+            width: 100%;
+        }
+
+        .btn-yes {
+            background: #FF69B4;
+            color: white;
+        }
+
+        .btn-yes:active {
+            background: #E8559E;
+            transform: scale(0.97);
+        }
+
+        .btn-no {
+            background: #F0F0F0;
+            color: #7A7A7A;
+            border: 1px solid #FFB6D1;
+        }
+
+        .btn-no:active {
+            background: #E2E2E2;
+            transform: scale(0.97);
+        }
+
+        .response-log {
+            background: #FFF5F8;
+            border-radius: 40px;
+            padding: 18px 20px;
+            margin-bottom: 32px;
+            border: 1px solid #FFCFE0;
+        }
+
+        .response-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #D43F6B;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+            text-align: center;
+        }
+
+        .response-message {
+            font-size: 17px;
+            background: white;
+            padding: 14px 16px;
+            border-radius: 32px;
+            color: #1F1F1F;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 16px;
+            padding-top: 12px;
+            border-top: 1px solid #FFD9E6;
+            font-size: 14px;
+            color: #B28C9E;
+        }
+
+        .phone {
+            font-size: 18px;
+            font-weight: 500;
+            background: #FFF0F5;
+            display: inline-block;
+            padding: 8px 20px;
+            border-radius: 40px;
+            margin-bottom: 16px;
+            color: #C2185B;
+        }
+
+        .copyright {
+            font-size: 13px;
+            color: #BA8DA3;
+        }
+
+        .toast-feedback {
+            margin-top: -10px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            font-weight: 500;
+            text-align: center;
+            padding: 10px;
+            border-radius: 50px;
+            background: #FCE4EC;
+            color: #B83B5E;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <!-- ПРИГЛАШЕНИЕ ПО ЦЕНТРУ -->
+    <div class="invite-badge">✨ ПРИГЛАШЕНИЕ ✨</div>
+
+    <div class="for-vlada">
+        Для Влады 🎀
+    </div>
+
+    <div class="main-text">
+        Приглашаю тебя на празднование дня рождения и отмыв прав коктейлями в ресто-бар большой.
+    </div>
+
+    <div class="date">
+        🗓 29 мая 2026
+    </div>
+
+    <div class="question">
+        Пойдешь ли ты?
+    </div>
+
+    <div class="buttons">
+        <button class="btn btn-yes" id="agreeBtn">СОГЛАСНА 🥂</button>
+        <button class="btn btn-no" id="declineBtn">ОТКАЗАНО</button>
+    </div>
+
+    <div id="liveFeedback" class="toast-feedback" style="display: none;"></div>
+
+    <div class="response-log">
+        <div class="response-title">📋 ЛЕНТА ОТВЕТОВ</div>
+        <div id="responseDisplay" class="response-message">
+            — пока нет ответа —
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="phone">📞 89191444346</div>
+        <div class="copyright">2026 Все права защищены</div>
+    </div>
+</div>
+
+<script>
+    (function() {
+        const STORAGE_KEY = 'vlada_invitation_answer';
+        const agreeBtn = document.getElementById('agreeBtn');
+        const declineBtn = document.getElementById('declineBtn');
+        const responseDisplay = document.getElementById('responseDisplay');
+        const liveFeedback = document.getElementById('liveFeedback');
+
+        function saveAnswer(answer, answerText) {
+            const now = new Date();
+            const formattedTime = `${now.getDate().toString().padStart(2,'0')}.${(now.getMonth()+1).toString().padStart(2,'0')}.${now.getFullYear()}, ${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
+            
+            const responseData = {
+                answer: answer,
+                answerText: answerText,
+                timestamp: formattedTime,
+                full: `Влада: ${answerText} — ${formattedTime}`
+            };
+            
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(responseData));
+            updateDisplay(responseData.full);
+            showFeedback(answer === 'yes' ? '🎉 Ура! Я очень жду. Твой ответ сохранён 💖' : '💔 Жаль… Напиши мне, мы что-то придумаем ✨');
+        }
+
+        function updateDisplay(message) {
+            responseDisplay.innerHTML = message;
+            responseDisplay.style.color = '#AD2A55';
+            responseDisplay.style.fontWeight = '500';
+        }
+
+        function showFeedback(text) {
+            liveFeedback.style.display = 'block';
+            liveFeedback.innerHTML = text;
+            setTimeout(() => {
+                liveFeedback.style.display = 'none';
+                liveFeedback.innerHTML = '';
+            }, 3000);
+        }
+
+        function loadSavedAnswer() {
+            const saved = localStorage.getItem(STORAGE_KEY);
+            if (saved) {
+                try {
+                    const data = JSON.parse(saved);
+                    if (data.full) {
+                        updateDisplay(data.full);
+                    } else {
+                        updateDisplay(`Влада: ${data.answerText} — ${data.timestamp}`);
+                    }
+                } catch(e) {}
+            } else {
+                updateDisplay('— пока нет ответа —');
+            }
+        }
+
+        agreeBtn.addEventListener('click', () => saveAnswer('yes', 'СОГЛАСНА'));
+        declineBtn.addEventListener('click', () => saveAnswer('no', 'ОТКАЗАНО'));
+
+        loadSavedAnswer();
+    })();
+</script>
+
+</body>
+</html>
